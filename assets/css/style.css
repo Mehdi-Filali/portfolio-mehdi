@@ -49,3 +49,334 @@ body
 {
     font-family: 'Quicksand', sans-serif;
 }
+
+section
+{
+    width: 100%;
+}
+
+h1, h2, h3
+{
+    font-weight: 600;
+}
+
+h1
+{
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}
+
+h2
+{
+    font-size: x-large;
+    padding-bottom: 2rem;
+}
+
+h3
+{
+    font-size: x-large;
+    padding-bottom: 1rem;
+    color: #BD8876;
+}
+
+p, li
+{
+    font-size: larger;
+    font-weight: lighter;
+    line-height: 2rem;
+}
+
+
+
+/**********USEFUL CLASSES***************/
+
+.is-centered 
+{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.text-centered
+{
+    text-align: center;
+}
+
+.middle-centered
+{
+    padding: 12rem 0;
+}
+
+.element-spaced
+{
+    padding: 5rem 0;
+}
+
+.spacing
+{
+    padding: 2rem 0;
+}
+
+.bottom-spacing
+{
+    padding-bottom: 5rem;
+}
+
+.top-spacing
+{
+    padding-top: 5rem;
+}
+
+
+/************************************/
+
+/** HEADER **/
+
+
+    .header-top
+    {
+        padding: 2rem 0;
+    }
+
+    .nav-bar
+    {
+        width: 6%;
+    }
+
+    .nav-bar img
+    {
+        height: 100px;
+    }
+
+
+/** MAIN **/
+
+    /** SECTION 1 **/
+        
+        .profil-pic
+        {
+            width: 20%;
+        }
+
+        .profil-pic img
+        {
+            width: 85%;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5)
+        }
+
+
+    /** SECTION 2 **/
+        .about-me
+        {
+            background-color: #3D4355;
+        }
+
+        .about-me-contenu
+        {
+            width: 45%;
+        }
+
+        .about-me-contenu h2
+        {
+            color: #fff;
+        }
+        
+        .about-me-contenu p
+        {
+            color: #fff;
+        }
+
+        
+
+
+    /** SECTION 3 **/
+        .personal-skills
+        {
+            width: 70%;
+            background-color: #fff;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: space-around;
+            margin-top: -10rem;
+            box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.3);
+            padding: 1rem 0;
+        }
+
+        .personal-skills div 
+        {
+            width: 30%;
+            padding: 2rem;
+        }
+
+        .personal-skills i
+        {
+            font-size: xx-large;
+            padding-bottom: 2rem;
+        }
+
+        .personal-skills p
+        {
+            font-size: large;
+        }
+
+        .personal-skills p:first-child
+        {
+            padding-bottom: 5rem;
+        }
+
+        .personal-skills p+p+p
+        {
+            padding-bottom: 1rem;
+            height: 5rem;
+        }
+
+        .personal-skills li:first-child
+        {
+            padding-bottom: 1rem;
+        }
+
+        .process i
+        {
+            color: #BD8876;
+        }
+
+        /*.border-grey
+        {
+            border-right: 1px solid #E6ECF8;
+            border-left: 1px solid #E6ECF8;
+        }*/
+
+        .border-grey::before 
+        {
+            content: '';
+            position: absolute;
+            border-color: #E6ECF8;
+            border-style: solid;
+            border-width: 1px 0px 0px 0px;
+            top: 103rem;
+            left: 22.5rem;
+            transform: rotate(90deg);
+            width: 40.5em;
+        }
+
+        .border-grey::after 
+        {
+            content: '';
+            position: absolute;
+            border-color: #E6ECF8;
+            border-style: solid;
+            border-width: 1px 0px 0px 0px;
+            top: 103rem;
+            left: 49rem;
+            transform: rotate(90deg);
+            width: 40.5em;
+        }
+
+
+
+    /** SECTION 4 **/
+
+        .img-contain
+        {
+
+        }
+
+        .img-contain img
+        {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .top-row, .bottom-row
+        {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 1rem 0;
+        }
+
+        .img-caption
+        {
+            width: 30%;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        .centered {
+            width: 100%;
+            position: relative;
+            top: -86%;
+            margin-top: -39px;
+          }
+
+        .overlay
+        {
+            background-color: #3D4355;
+            opacity: 0;
+            -webkit-transition: .45s ease-in-out;
+            transition: .45s ease-in-out;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+
+        }
+
+        .img-caption .overlay:hover
+        {
+            opacity: 1;
+        }
+
+        
+        
+
+/**** FOOTER*****/
+    footer
+    {
+        background-color: #3D4355;
+    }
+
+    footer section
+    {
+        width: 35%;
+        margin: auto;
+    }
+
+    footer i
+    {
+        color: rgb(179, 179, 179);
+        font-size: 2rem;
+        width: 8%;
+        transition: .45s ease-in-out;
+    }
+
+    .footer-content i:hover, .footer-content .contact a:hover
+    {
+        color: #BD8876;
+    }
+
+    .footer-content
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-content .contact img
+    {
+        max-width: 30%;
+        padding-bottom: 1rem;
+    }
+
+    .footer-content .contact a
+    {
+        text-decoration: none;
+        color: rgb(179, 179, 179);
+        transition: .45s ease-in-out;
+    }
+
+    .social h1
+    {
+        color: #fff;
+        font-size: xxx-large;
+        padding-bottom: 2rem
+    }
