@@ -240,12 +240,6 @@ p, li
             color: #BD8876;
         }
 
-        /*.border-grey
-        {
-            border-right: 1px solid #E6ECF8;
-            border-left: 1px solid #E6ECF8;
-        }*/
-
         .border-grey::before 
         {
             content: '';
