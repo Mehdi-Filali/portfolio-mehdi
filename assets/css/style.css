@@ -272,7 +272,7 @@ p, li
 
         .img-contain img
         {
-            height: 20rem;
+            height: 15rem;
             
         }
 
@@ -293,8 +293,8 @@ p, li
         .centered {
             width: 100%;
             position: relative;
-            top: -86%;
-            margin-top: -39px;
+            top: -87%;
+            margin-top: -33px;
           }
 
         .overlay
