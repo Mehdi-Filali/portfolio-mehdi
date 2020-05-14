@@ -1,5 +1,8 @@
 /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 601px) and (max-width: 1068px) 
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) 
   {
     .is-centered
     {
@@ -25,7 +28,7 @@
     /*** HEADER *********************************/
     .nav-bar
     {
-        width: 20%;
+        width: fit-content;
         margin: 0 auto;
     }
 
@@ -41,11 +44,6 @@
         padding-top: 2rem;
     }
 
-    .profil-pic img
-    {
-        width: 30%;
-    }
-
     /*** SECTION 3***********************************/
     .personal-skills
     {
@@ -58,6 +56,11 @@
     {
         width: 100%;
         padding: 1rem;
+    }
+
+    .dev
+    {
+        padding-top: 2rem;
     }
 
     .border-grey::before, .border-grey::after

@@ -1,6 +1,9 @@
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px) 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
 {
     .is-centered
     {
@@ -26,7 +29,7 @@
     /*** HEADER ***/
     .nav-bar
     {
-        width: 30%;
+        width: fit-content;
         margin: 0 auto;
     }
 
@@ -39,7 +42,7 @@
 
     .profil-pic img
     {
-        width: 40%;
+        height: 10rem;
     }
 
     /*** SECTION 3***/
