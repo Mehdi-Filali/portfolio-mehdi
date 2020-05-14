@@ -39,7 +39,7 @@
 
     .profil-pic img
     {
-        width: 30%;
+        width: 40%;
     }
 
     /*** SECTION 3***/
@@ -54,6 +54,11 @@
     {
         width: 100%;
         padding: 1rem;
+    }
+
+    .dev
+    {
+        padding-top: 2rem;
     }
 
     .border-grey::before, .border-grey::after
