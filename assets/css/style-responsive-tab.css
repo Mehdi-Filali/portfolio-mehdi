@@ -39,15 +39,15 @@
     /*** SECTION 1********************************/
     .profil-pic
     {
-        padding-top: 2rem;
+      padding-top: 2rem;
     }
 
     /*** SECTION 3***********************************/
     .personal-skills
     {
-        flex-direction: column;
-        width: 90%;
-        margin-top: -6rem;
+      flex-direction: column;
+      width: 90%;
+      margin-top: -6rem;
     }
 
     .personal-skills div
@@ -58,7 +58,7 @@
 
     .dev
     {
-        padding-top: 2rem;
+      padding-top: 2rem;
     }
 
     .border-grey::before, .border-grey::after
@@ -86,10 +86,13 @@
 
     .img-caption
     {
-        width: 75%;
         margin-top: 1rem;
     }
 
+    .img-contain img
+    {
+      height: 24rem;
+    }
 
     /*** FOOTER  ***/
 

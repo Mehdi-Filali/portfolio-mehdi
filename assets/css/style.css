@@ -272,8 +272,8 @@ p, li
 
         .img-contain img
         {
-            max-width: 100%;
-            height: auto;
+            height: 20rem;
+            
         }
 
         .top-row, .bottom-row
@@ -285,7 +285,7 @@ p, li
 
         .img-caption
         {
-            width: 30%;
+            width: fit-content;
             overflow: hidden;
             border-radius: 12px;
         }
