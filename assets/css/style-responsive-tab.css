@@ -86,12 +86,8 @@
 
     .img-caption
     {
-        margin-top: 1rem;
-    }
-
-    .img-contain img
-    {
-      height: 24rem;
+        margin-top: 3rem;
+        width: 100%;
     }
 
     /*** FOOTER  ***/

@@ -88,11 +88,7 @@
     .img-caption
     {
         margin-top: 1rem;
-    }
-
-    .img-contain img
-    {
-        height: 14rem;
+        width: 100%;
     }
 
 
